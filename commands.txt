@@ -1,0 +1,6 @@
+create_process process_id process_file.txt
+run_process process_id
+block_process process_id
+unblock_process process_id
+kill_process process_id
+show_context process_id
