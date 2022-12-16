@@ -1,6 +1,17 @@
-create_process process_id process_file.txt
-run_process process_id
-block_process process_id
-unblock_process process_id
-kill_process process_id
-show_context process_id
+create_process pr_1 process1_instruction_file.txt
+create_process pr_1 process1_instruction_file.txt
+run_process pr_2
+create_process pr_2 process2_instruction_file.txt
+create_process pr_3 process3_instruction_file.txt
+run_process pr_1
+run_process pr_2
+run_process pr_3
+show_context pr_1
+block_process pr_2
+show_context pr_2
+kill_process pr_3
+show_context pr_3
+run_process pr_2
+unblock_process pr_2
+run_process pr_2
+show_context pr_2

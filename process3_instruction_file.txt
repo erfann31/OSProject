@@ -1,0 +1,6 @@
+load 15
+add 8
+load 3
+mul 2
+sub 5
+sub 2
